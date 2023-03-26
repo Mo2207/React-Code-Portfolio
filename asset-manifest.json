@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/Mo2207/React-Code-Portfolio/static/css/main.09b74792.css",
-    "main.js": "/Mo2207/React-Code-Portfolio/static/js/main.de239a17.js",
-    "static/media/Gabe.picture.png": "/Mo2207/React-Code-Portfolio/static/media/Gabe.picture.4d0dac54c4ec6da2ebc3.png",
-    "static/media/wikitube-app.png": "/Mo2207/React-Code-Portfolio/static/media/wikitube-app.a9b08e4aeb1519e47b97.png",
-    "static/media/Ecommerce-backend-app.png": "/Mo2207/React-Code-Portfolio/static/media/Ecommerce-backend-app.b7c1f9dc424a49672651.png",
-    "static/media/weather-dashboard-app.png": "/Mo2207/React-Code-Portfolio/static/media/weather-dashboard-app.eb7266fedd71de4fdad2.png",
-    "static/media/Note-taker-app.png": "/Mo2207/React-Code-Portfolio/static/media/Note-taker-app.07c4f0302e747ffb824b.png",
-    "index.html": "/Mo2207/React-Code-Portfolio/index.html",
-    "main.09b74792.css.map": "/Mo2207/React-Code-Portfolio/static/css/main.09b74792.css.map",
-    "main.de239a17.js.map": "/Mo2207/React-Code-Portfolio/static/js/main.de239a17.js.map"
+    "main.css": "/React-Code-Portfolio/static/css/main.09b74792.css",
+    "main.js": "/React-Code-Portfolio/static/js/main.8fd04fbc.js",
+    "static/media/Gabe.picture.png": "/React-Code-Portfolio/static/media/Gabe.picture.4d0dac54c4ec6da2ebc3.png",
+    "static/media/wikitube-app.png": "/React-Code-Portfolio/static/media/wikitube-app.a9b08e4aeb1519e47b97.png",
+    "static/media/Ecommerce-backend-app.png": "/React-Code-Portfolio/static/media/Ecommerce-backend-app.b7c1f9dc424a49672651.png",
+    "static/media/weather-dashboard-app.png": "/React-Code-Portfolio/static/media/weather-dashboard-app.eb7266fedd71de4fdad2.png",
+    "static/media/Note-taker-app.png": "/React-Code-Portfolio/static/media/Note-taker-app.07c4f0302e747ffb824b.png",
+    "index.html": "/React-Code-Portfolio/index.html",
+    "main.09b74792.css.map": "/React-Code-Portfolio/static/css/main.09b74792.css.map",
+    "main.8fd04fbc.js.map": "/React-Code-Portfolio/static/js/main.8fd04fbc.js.map"
   },
   "entrypoints": [
     "static/css/main.09b74792.css",
-    "static/js/main.de239a17.js"
+    "static/js/main.8fd04fbc.js"
   ]
 }

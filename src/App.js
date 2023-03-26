@@ -8,10 +8,11 @@ import Portfolio from './components/portfolio/portfolio.jsx';
 
 function App() {
 
+  // useState for the toggle functions
   const [showExperience, setShowExperience] = useState(true);
   const [showPortfolio, setShowPortfolio] = useState(false);
 
-  // function to toggle the experience/portfolio components
+  // function to toggle the Experience component
   const toggleExperience = () => {
     if (showExperience) {
       return;
@@ -21,6 +22,7 @@ function App() {
     }
   };
 
+  // function to toggle the Portfolio component
   const togglePortfolio = () => {
     if (showPortfolio) {
       return;
@@ -34,11 +36,13 @@ function App() {
     <div>
       <nav>
         <Navbar 
+        // hand the toggle functions to navbar as props
         toggleExperience={toggleExperience}
         togglePortfolio={togglePortfolio}
         />
       </nav>
       <main>
+        {/* logic to determine which component to render  */}
         {!showExperience && <Portfolio />}
         {!showPortfolio && <Experience />}
       </main>

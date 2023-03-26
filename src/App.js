@@ -12,13 +12,21 @@ function App() {
   const [showPortfolio, setShowPortfolio] = useState(false);
 
   // function to toggle the experience/portfolio components
-  const toggle = () => {
+  const toggleExperience = () => {
     if (showExperience) {
-      setShowExperience(false);
-      setShowPortfolio(true);
+      return;
     } else {
-      setShowPortfolio(false);
       setShowExperience(true);
+      setShowPortfolio(false);
+    }
+  };
+
+  const togglePortfolio = () => {
+    if (showPortfolio) {
+      return;
+    } else {
+      setShowPortfolio(true);
+      setShowExperience(false);
     }
   };
 
@@ -26,7 +34,8 @@ function App() {
     <div>
       <nav>
         <Navbar 
-        toggle={toggle}
+        toggleExperience={toggleExperience}
+        togglePortfolio={togglePortfolio}
         />
       </nav>
       <main>

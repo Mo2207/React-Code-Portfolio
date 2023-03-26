@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/React-Code-Portfolio/static/css/main.09b74792.css",
-    "main.js": "/React-Code-Portfolio/static/js/main.8fd04fbc.js",
+    "main.js": "/React-Code-Portfolio/static/js/main.48a5e8eb.js",
     "static/media/Gabe.picture.png": "/React-Code-Portfolio/static/media/Gabe.picture.4d0dac54c4ec6da2ebc3.png",
     "static/media/wikitube-app.png": "/React-Code-Portfolio/static/media/wikitube-app.a9b08e4aeb1519e47b97.png",
     "static/media/Ecommerce-backend-app.png": "/React-Code-Portfolio/static/media/Ecommerce-backend-app.b7c1f9dc424a49672651.png",
@@ -9,10 +9,10 @@
     "static/media/Note-taker-app.png": "/React-Code-Portfolio/static/media/Note-taker-app.07c4f0302e747ffb824b.png",
     "index.html": "/React-Code-Portfolio/index.html",
     "main.09b74792.css.map": "/React-Code-Portfolio/static/css/main.09b74792.css.map",
-    "main.8fd04fbc.js.map": "/React-Code-Portfolio/static/js/main.8fd04fbc.js.map"
+    "main.48a5e8eb.js.map": "/React-Code-Portfolio/static/js/main.48a5e8eb.js.map"
   },
   "entrypoints": [
     "static/css/main.09b74792.css",
-    "static/js/main.8fd04fbc.js"
+    "static/js/main.48a5e8eb.js"
   ]
 }

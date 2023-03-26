@@ -47,9 +47,6 @@ const Experience = () => {
             <li>React</li>
             <li>Graphql</li>
             <li>MySQL</li>
-            <li>MySQL</li>
-            <li>MySQL</li>
-            <li>MySQL</li>
           </ul>
         </div>
       </div>

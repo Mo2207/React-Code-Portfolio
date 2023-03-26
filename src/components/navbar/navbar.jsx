@@ -1,24 +1,23 @@
 
 import React from 'react';
 import '../navbar/navbar.css';
+import { handleExperienceClick } from '../../App';
+import { handlePortfolioClick } from '../../App';
 
 const Navbar = () => {
   return (
     <div className="navbar">
       <div className="navLink">
-        <a href="#">About Me</a>
+        <button onClick={handleExperienceClick}>About</button>
       </div>
       <div className="navLink">
-        <a href="https://www.linkedin.com/in/gabriel-morris-a4b897211/">LinkedIn</a>
+        <button onClick={handlePortfolioClick}>Portfolio</button>
       </div>
       <div className="navLink">
-        <a href="https://github.com/Mo2207">Github</a>
+        <button href="#">Resume</button>
       </div>
       <div className="navLink">
-        <a href="#">My Resume</a>
-      </div>
-      <div className="navLink">
-        <a href="#">Contact Me</a>
+        <button href="#">Contact</button>
       </div>
     </div>
   );

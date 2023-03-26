@@ -1,4 +1,86 @@
 
 .main {
-  background-color: rgba(51, 255, 51, 0.538);
+  background-color: rgba(255, 255, 255);
+  display: flex;
+  flex-direction: column;
+  height: 94vh;
 }
+
+.introduction {
+  background-color: rgb(255, 255, 255);
+  margin: 6vh 0 3.7vh 0;
+  display: flex;
+  justify-content: space-evenly;
+  max-height: 50vh;
+}
+
+/* Profile picture */
+.photo {
+  padding: 0;
+  clear: left;
+  display: flex;
+  flex-direction: row;
+  flex-grow: 1;
+  justify-content: center;
+  max-width: 25%;
+}
+.profilePicture {
+  margin: 2vw 0 2vw;
+  max-width: 100%;
+}
+
+/* Name and description */
+.nameDescription {
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  width: 30vw;
+}
+.myName {
+  display: flex;
+  font-size: 2em;
+  margin: 0 0 1vh;
+}
+.description {
+  display: flex;
+  justify-content: center;
+  font-size: 1em;
+}
+
+.experience {
+  background-color: rgb(255, 255, 255);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex-grow: 2;
+}
+
+.skillsList {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+/* .projects {
+  border: solid black 2px;
+  border-radius: 2px;
+  font-size: 2.5rem;
+  font-weight: 600;
+  margin: 0 0.3vw 0 0.3vw;
+  width: 35%;
+} */
+/* .projects img {
+  width: 100%;
+  height: 100%;
+  object-fit: fill;
+} */
+/* .projects:hover {
+  transition: all 0.3s ease-out;
+  filter: blur(1px);
+  border: solid white 2px;
+  color: rgb(0, 0, 0);
+} */
+

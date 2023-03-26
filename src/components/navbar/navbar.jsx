@@ -1,17 +1,15 @@
 
 import React from 'react';
 import '../navbar/navbar.css';
-import { handleExperienceClick } from '../../App';
-import { handlePortfolioClick } from '../../App';
 
-const Navbar = () => {
+const Navbar = ({ toggle }) => {
   return (
     <div className="navbar">
       <div className="navLink">
-        <button onClick={handleExperienceClick}>About</button>
+        <button onClick={toggle}>About</button>
       </div>
       <div className="navLink">
-        <button onClick={handlePortfolioClick}>Portfolio</button>
+        <button onClick={toggle}>Portfolio</button>
       </div>
       <div className="navLink">
         <button href="#">Resume</button>

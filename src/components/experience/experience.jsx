@@ -4,6 +4,9 @@ import '../experience/experience.css';
 import profilePicture from '../../assets/Gabe.picture.png';
 
 const Experience = () => {
+  // const experienceList = [
+  //   'Javascript', 'Python', 'Html', 'Css', 'NodeJs', 'Express', 'MySQL', 'MongoDb', "API's", 'React', 'Graphql'
+  // ]
   return (
     <div className='main'>
       

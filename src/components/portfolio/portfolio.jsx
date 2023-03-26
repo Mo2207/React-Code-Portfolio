@@ -15,15 +15,19 @@ const Portfolio = () => {
 
         <div className='project'>
           <img src={wikitube} alt="" />
+          <div className='projectText'>Wikitube API</div>
         </div>
         <div className='project'>
           <img src={weatherDashboard} alt="" />
+          <div className='projectText'>Weather Dashboard</div>
         </div>
         <div className='project'>
           <img src={ecommerce} alt="" />
+          <div className='projectText'>Ecommerce Backend</div>
         </div>
         <div className='project'>
           <img src={noteTaker} alt="" />
+          <div className='projectText'>Note Taker</div>
         </div>
 
       </div>

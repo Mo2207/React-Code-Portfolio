@@ -9,20 +9,31 @@
 }
 
 .project {
+  position: relative;
   border: solid black 2px;
   border-radius: 2px;
   font-size: 2.5rem;
   font-weight: 600;
   margin-bottom: 1.5vh;
   width: 40%;
-  display: flex;
 }
-
-.project:hover {
-  transition: all 0.3s ease-out;
-  filter: blur(1px);
-  border: solid white 2px;
+.project:hover img {
+  transition: all 0.2s ease-out;
+  filter: blur(3px);
+  border: solid rgb(0, 0, 0) 2px;
   color: rgb(0, 0, 0);
+}
+.projectText {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  opacity: 0;
+  transition: opacity 0.5s ease-in-out;
+  color: rgb(39,110,211);
+}
+.project:hover .projectText {
+  opacity: 1;
 }
 
 img {

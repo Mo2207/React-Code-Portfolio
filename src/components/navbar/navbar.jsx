@@ -15,7 +15,7 @@ const Navbar = (props) => {
         <button href="#">Resume</button>
       </div>
       <div className="navLink">
-        <button href="#">Contact</button>
+        <button onClick={props.toggleContact}>Contact</button>
       </div>
     </div>
   );

@@ -8,6 +8,7 @@
   width: 100vw;
   position: fixed;
   top: 0;
+  z-index: 100;
 }
 
 .navLink {
@@ -16,11 +17,14 @@
   font-size: large;
 }
 
-a {
-  text-decoration: none;
-  color: black;
+button {
+  background: none;
+	border: none;
+  display: flex;
+  justify-content: center;
+  font-size: 2.3vh;
 }
 
-a:hover {
+button:hover {
   color: white;
 }

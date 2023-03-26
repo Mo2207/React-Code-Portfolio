@@ -13,7 +13,8 @@ const Footer = () => {
 
         <div className='icons'>
         {/* <FontAwesomeIcon icon={brands('fa-github')} style={{color: "#6282b0",}} /> */}
-        <FontAwesomeIcon icon="fa-brands fa-github" />
+        {/* <FontAwesomeIcon icon="fa-brands fa-github" /> */}
+        <a href="https://github.com/Mo2207">Github</a>
         </div>
         <div className='icons'>
           <a href="https://www.linkedin.com/in/gabriel-morris-a4b897211/">LinkedIn</a>

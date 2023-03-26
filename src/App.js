@@ -49,23 +49,26 @@ function App() {
 
   return (
     <div>
-      <nav>
+      <header>
         <Navbar 
         // hand the toggle functions to navbar as props
         toggleExperience={toggleExperience}
         togglePortfolio={togglePortfolio}
         toggleContact={toggleContact}
         />
-      </nav>
+      </header>
+
       <main>
         {/* logic to determine which component to render  */}
         {!showExperience && !showContact && <Portfolio />}
         {!showPortfolio && !showContact && <Experience />}
         {!showExperience && !showPortfolio && <Contact />}
       </main>
+
       <footer>
         <Footer/>
       </footer>
+      
     </div>
   );
 }

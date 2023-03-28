@@ -7,11 +7,10 @@ This is my work-in-progress code portfolio created with react. This is where I'l
   - Building this project so far I've learned how to conditioninally render react components.
   
 ## Installation:
-This project can be viewed on github pages here:
+This project can be viewed on github pages here: https://mo2207.github.io/React-Code-Portfolio/
 
 ## Usage:
-!["picture of weather-dashboard code"](/assets/images/weather-dashboard-code.png)
-!["picture of weather-dashboard page"](/assets/images/weather-dashboard-page.png)
+!["picture of portfolio"](src/assets/portfolio-screenshot.png)
 
 ## Credits:
 I built this myself.

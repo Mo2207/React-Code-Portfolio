@@ -1,5 +1,9 @@
 
 .footer {
+  height: 100%;
+}
+
+.footerContent {
   background-color: rgb(40, 111, 211);
   position: absolute;
   bottom: 0px;

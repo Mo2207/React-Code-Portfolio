@@ -18,32 +18,32 @@ const projects = [
   {
     image: weatherDashboard,
     title: "Weather Dashboard",
-    deployedLink: "",
-    repoLink: ""
+    deployedLink: "https://mo2207.github.io/Weather-Dashboard/",
+    repoLink: "https://github.com/Mo2207/Weather-Dashboard"
   },
   {
     image: ecommerce,
     title: "Ecommerce Backend",
-    deployedLink: "",
-    repoLink: ""
+    deployedLink: "https://youtu.be/5lFUb8SjfBE",
+    repoLink: "https://github.com/Mo2207/E-Commerce-Back-End"
   },
   {
     image: noteTaker,
     title: "Note Taker",
-    deployedLink: "",
-    repoLink: ""
+    deployedLink: "https://notetaker-mo2207.herokuapp.com/",
+    repoLink: "https://github.com/Mo2207/Note-Taker"
   },
   {
     image: passwordGenerator,
     title: "Password Generator",
-    deployedLink: "",
-    repoLink: ""
+    deployedLink: "https://mo2207.github.io/Javascript-Password-Generator/",
+    repoLink: "https://github.com/Mo2207/Javascript-Password-Generator"
   },
   {
     image: codeQuiz,
     title: "Code Quiz",
-    deployedLink: "",
-    repoLink: ""
+    deployedLink: "https://mo2207.github.io/Code-Quiz/",
+    repoLink: "https://github.com/Mo2207/Code-Quiz"
   },
 ];
 

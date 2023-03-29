@@ -1,4 +1,9 @@
 
+@font-face {
+  font-family: Arimo;
+  src: url(../../../public/fonts/Arimo/static/Arimo-Regular.ttf);
+}
+
 .navbar {
   background-color: rgb(40, 111, 211);
   display: flex;
@@ -18,6 +23,7 @@
 }
 
 button {
+  font-family: Arimo;
   background: none;
 	border: none;
   display: flex;

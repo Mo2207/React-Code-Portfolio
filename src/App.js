@@ -48,7 +48,11 @@ function App() {
   };
 
   return (
-    <div>
+    <div style={{
+      minHeight: "100vh",
+      display: "flex",
+      flexDirection: "column"
+    }}>
       <header>
         <Navbar 
         // hand the toggle functions to navbar as props
@@ -65,9 +69,7 @@ function App() {
         {!showExperience && !showPortfolio && <Contact />}
       </main>
 
-      <footer>
-        <Footer/>
-      </footer>
+      <Footer/>
       
     </div>
   );

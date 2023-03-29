@@ -1,17 +1,21 @@
 
 .footer {
-  height: 100%;
+  position: absolute;
+  bottom: 0px;
+  height: 3vh;
 }
 
 .footerContent {
   background-color: rgb(40, 111, 211);
-  position: absolute;
-  bottom: 0px;
+  /* position: absolute;
+  bottom: 0px; */
   display: flex;
   justify-content: center;
   align-items: center;
   width: 100vw;
-  height: 3vh; 
+  height: 100%;
+
+  /* height: 3vh;  */
 }
 
 .icons {

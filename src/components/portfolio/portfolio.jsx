@@ -60,7 +60,10 @@ const allProjects = projects.map((project, index) => (
 
 const Portfolio = () => {
   return (
-    <div>
+    <div style={{
+      overflow: "auto",
+      height: "97vh"
+    }}>
 
       <div className='projectsLayout'>
         {allProjects}

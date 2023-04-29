@@ -7,6 +7,8 @@ import Footer from './components/footer/footer.jsx';
 import Experience from './components/experience/experience.jsx';
 import Portfolio from './components/portfolio/portfolio.jsx';
 import Contact from './components/contact/contact.jsx';
+import { Container, Row } from 'react-bootstrap';
+import './App.css';
 
 function App() {
 
@@ -49,30 +51,51 @@ function App() {
   };
 
   return (
-    <div style={{
-      minHeight: "100vh",
-      display: "flex",
-      flexDirection: "column"
+    <Container fluid style={{
+      display: 'flex', 
+      flexDirection: 'column',
+      minHeight: '100vh',
+      padding: 0
     }}>
-      <header>
+      <Row className='navRow' style={{ 
+        flexGrow: 1,
+        position: 'fixed',
+        top: 0,
+        width: '100%',
+        margin: 0,
+        padding: 0,
+        zIndex: 999
+      }}>
         <Navbar 
         // hand the toggle functions to navbar as props
         toggleExperience={toggleExperience}
         togglePortfolio={togglePortfolio}
         toggleContact={toggleContact}
         />
-      </header>
+      </Row>
 
-      <main>
+      <Row className='experienceRow' style={{ 
+        flexGrow: 1,
+        marginTop: '70px', 
+        marginBottom: '60px'
+      }}>
         {/* logic to determine which component to render  */}
         {!showExperience && !showContact && <Portfolio />}
         {!showPortfolio && !showContact && <Experience />}
         {!showExperience && !showPortfolio && <Contact />}
-      </main>
+      </Row>
 
+      <Row className='footerRow' style={{
+      position: 'fixed',
+      bottom: 0,
+      width: '100%',
+      margin: 0,
+      padding: 0
+      }}>
       <Footer/>
+      </Row>
       
-    </div>
+    </Container>
   );
 }
 

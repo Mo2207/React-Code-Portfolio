@@ -7,6 +7,8 @@ import weatherDashboard from '../../assets/weather-dashboard-app.png';
 import ecommerce from '../../assets/Ecommerce-backend-app.png';
 import passwordGenerator from '../../assets/password-generator-app.png';
 import codeQuiz from '../../assets/code-quiz-app.png';
+import { Container } from 'react-bootstrap';
+
 
 const projects = [
   {
@@ -60,16 +62,16 @@ const allProjects = projects.map((project, index) => (
 
 const Portfolio = () => {
   return (
-    <div style={{
+    <Container style={{
       overflow: "auto",
-      height: "97vh"
+      height: "120%"
     }}>
 
       <div className='projectsLayout'>
         {allProjects}
       </div>
 
-    </div>
+    </Container>
   )
 }
 

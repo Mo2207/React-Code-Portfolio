@@ -1,5 +1,6 @@
 
 import React from 'react';
+import 'bootstrap/dist/css/bootstrap.min.css';
 import { useState } from 'react';
 import Navbar from './components/navbar/navbar.jsx';
 import Footer from './components/footer/footer.jsx';

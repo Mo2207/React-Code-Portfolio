@@ -11,11 +11,18 @@
   font-size: large;
 }
 
+.resume {
+  text-decoration: none;
+  padding: 1px 6px 1px 6px;
+}
+
 button {
+  font-family: Quicksand;
+  color: white;
   background: none;
 	border: none;
 }
 
 button:hover {
-  color: white;
+  color: rgb(0, 0, 0);
 }

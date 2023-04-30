@@ -1,6 +1,5 @@
 
 .footer {
-  padding: 0;
   height: 40px;
   background-color: rgb(40, 111, 211);
   display: flex;
@@ -13,14 +12,14 @@
 }
 
 .icons {
-  margin-right: 1vw;
+  padding: 0 10px 0 10px;
+  font-size: 30px;
 }
 
 a {
-  text-decoration: none;
-  color: black;
+  color: rgb(255, 255, 255);
 }
 
 a:hover {
-  color: white;
+  color: rgb(0, 0, 0);
 }

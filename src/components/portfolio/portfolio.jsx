@@ -2,7 +2,7 @@
 import React from 'react';
 import '../portfolio/portfolio.css';
 import wikitube from '../../assets/wikitube-app.png';
-import noteTaker from '../../assets/Note-taker-app.png';
+import EastCoastCamping from '../../assets/EastCoastCamping.png';
 import weatherDashboard from '../../assets/weather-dashboard-app.png';
 import ecommerce from '../../assets/Ecommerce-backend-app.png';
 import passwordGenerator from '../../assets/password-generator-app.png';
@@ -11,6 +11,12 @@ import { Container } from 'react-bootstrap';
 
 
 const projects = [
+  {
+    image: EastCoastCamping,
+    title: "EastCoastCamping",
+    deployedLink: "https://east-coast-camping.herokuapp.com/",
+    repoLink: "https://github.com/Mo2207/EastCoastCamping"
+  },
   {
     image: wikitube,
     title: "Wikitube API",
@@ -28,12 +34,6 @@ const projects = [
     title: "Ecommerce Backend",
     deployedLink: "https://youtu.be/5lFUb8SjfBE",
     repoLink: "https://github.com/Mo2207/E-Commerce-Back-End"
-  },
-  {
-    image: noteTaker,
-    title: "Note Taker",
-    deployedLink: "https://notetaker-mo2207.herokuapp.com/",
-    repoLink: "https://github.com/Mo2207/Note-Taker"
   },
   {
     image: passwordGenerator,

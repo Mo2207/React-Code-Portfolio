@@ -1,26 +1,27 @@
 
 import React from 'react';
 import '../footer/footer.css';
-// import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-// import { fagithub } from '@fortawesome/free-solid-svg-icons'
-// import { brands } from '@fortawesome/fontawesome-svg-core/import.macro'
-// import { library } from '@fortawesome/fontawesome-svg-core';
-// library.add(fagithub)
+import { Container } from 'react-bootstrap';
+import { BsGithub, BsLinkedin } from "react-icons/bs";
 
 const Footer = () => {
   return (
-    <div className='footer'>
+    <Container className='footer'>
       <div className='footerContent'>
 
         <div className='icons'>
-        <a href="https://github.com/Mo2207">Github</a>
+          <a href="https://github.com/Mo2207">
+            <BsGithub />
+          </a>
         </div>
         <div className='icons'>
-          <a href="https://www.linkedin.com/in/gabriel-morris-a4b897211/">LinkedIn</a>
+          <a href="https://www.linkedin.com/in/gabriel-morris-a4b897211/">
+            <BsLinkedin />
+          </a>
         </div>
 
       </div>
-    </div>
+    </Container>
   )
 }
 

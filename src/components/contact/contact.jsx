@@ -1,37 +1,18 @@
 
 import React from 'react';
-import { useState } from 'react';
 import '../contact/contact.css';
 
 const Contact = (props) => {
-  const [name, setName] = useState('');
-  const [email, setEmail] = useState('');
-  const [message, setMessage] = useState('');
-
-  const submitForm = (event) => {
-    event.preventDefault();
-
-  }
-
   return (
     <div className='contact'>
-      <form className='contactForm' onSubmit={submitForm}>
-
-        <label>
-          Name:
-          <input type="text" value={name}/>
-        </label>
-        <label>
-          Email:
-          <input type="text" value={email}/>
-        </label>
-        <label>
-          Message:
-          <input type="text" value={message}/>
-        </label>
-        <button className='submitBtn' type='submit'>Submit</button>
-
-      </form>
+      <div className='desc'>
+        If you have any questions or would like to reach out, I am available via cellphone or email.
+      </div>
+      <div className='info'>
+        <p>(506)-663-5103</p>
+        <a className='email' href="mailto:gabemorris1042@gmail.com">Email Me</a>
+      </div>
+      
     </div>
   );
 }

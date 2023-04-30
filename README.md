@@ -10,7 +10,7 @@ This is my work-in-progress code portfolio created with react. This is where I'l
 This project can be viewed on github pages here: https://mo2207.github.io/React-Code-Portfolio/
 
 ## Usage:
-!["picture of portfolio"](src/assets/portfolio-screenshot.png)
+!["picture of portfolio"](src/assets/portfolio.png)
 
 ## Credits:
 I built this myself.

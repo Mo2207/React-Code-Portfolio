@@ -3,6 +3,10 @@ import React from 'react';
 import '../navbar/navbar.css';
 import { Row } from 'react-bootstrap';
 
+const openResume = () => {
+  window.open(process.env.PUBLIC_URL + '/Resume2023TECHIMPACT.pdf', '_blank');
+};
+
 const Navbar = (props) => {
   return (
     <Row style={{
@@ -17,7 +21,7 @@ const Navbar = (props) => {
           <button onClick={props.togglePortfolio}>Portfolio</button>
         </div>
         <div className="navLink">
-          <a className='resume' href={process.env.PUBLIC_URL + '/Resume2023TECHIMPACT.pdf'} target="_blank" rel="noopener noreferrer">Resume</a>
+          <button onClick={openResume} rel="noopener noreferrer">Resume</button>
         </div>
         <div className="navLink">
           <button onClick={props.toggleContact}>Contact</button>

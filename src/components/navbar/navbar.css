@@ -8,16 +8,19 @@
 }
 
 .navLink {
-  font-size: large;
+  font-size: 1.2em;
 }
 
 .resume {
   text-decoration: none;
-  padding: 1px 6px 1px 6px;
+  font-family: Quicksand;
+  font-size: 1em;
+  /* padding: 1px 6px 1px 6px; */
 }
 
 button {
   font-family: Quicksand;
+  font-size: 1em;
   color: white;
   background: none;
 	border: none;

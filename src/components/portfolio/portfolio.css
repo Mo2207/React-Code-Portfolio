@@ -50,11 +50,13 @@
   opacity: 0;
   transition: opacity 0.3s ease-in;
   margin: 2vh 2vw 0 0;
-  color: rgb(255, 255, 255)
+  color: rgb(255, 255, 255);
+  text-decoration: none;
 }
 
 .links a:hover {
   color: rgb(39,110,211);
+  text-decoration: underline;
 }
 
 .project:hover .projectText {

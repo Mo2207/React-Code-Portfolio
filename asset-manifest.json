@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/React-Code-Portfolio/static/css/main.a808843e.css",
+    "main.css": "/React-Code-Portfolio/static/css/main.57aa270f.css",
     "main.js": "/React-Code-Portfolio/static/js/main.9a4bdd93.js",
     "static/media/Gabe.picture.png": "/React-Code-Portfolio/static/media/Gabe.picture.4d0dac54c4ec6da2ebc3.png",
     "static/media/EastCoastCamping.png": "/React-Code-Portfolio/static/media/EastCoastCamping.c165f419ac5d950d491f.png",
@@ -12,11 +12,11 @@
     "static/media/code-quiz-app.png": "/React-Code-Portfolio/static/media/code-quiz-app.df5159e1617b7785732e.png",
     "static/media/Quicksand-Medium.ttf": "/React-Code-Portfolio/static/media/Quicksand-Medium.e7f9096c960074f84b6c.ttf",
     "index.html": "/React-Code-Portfolio/index.html",
-    "main.a808843e.css.map": "/React-Code-Portfolio/static/css/main.a808843e.css.map",
+    "main.57aa270f.css.map": "/React-Code-Portfolio/static/css/main.57aa270f.css.map",
     "main.9a4bdd93.js.map": "/React-Code-Portfolio/static/js/main.9a4bdd93.js.map"
   },
   "entrypoints": [
-    "static/css/main.a808843e.css",
+    "static/css/main.57aa270f.css",
     "static/js/main.9a4bdd93.js"
   ]
 }

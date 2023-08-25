@@ -7,6 +7,7 @@ import weatherDashboard from '../../assets/weather-dashboard-app.png';
 import ecommerce from '../../assets/Ecommerce-backend-app.png';
 import passwordGenerator from '../../assets/password-generator-app.png';
 import codeQuiz from '../../assets/code-quiz-app.png';
+import employeeTracker from '../../assets/employeeTracker.png';
 import { Container } from 'react-bootstrap';
 
 
@@ -28,6 +29,12 @@ const projects = [
     title: "Weather Dashboard",
     deployedLink: "https://mo2207.github.io/Weather-Dashboard/",
     repoLink: "https://github.com/Mo2207/Weather-Dashboard"
+  },
+  {
+    image: employeeTracker,
+    title: "Employee Tracker",
+    deployedLink: "https://www.youtube.com/watch?v=G8ySKoR8nV4&ab_channel=Mo1042",
+    repoLink: "https://github.com/Mo2207/Employee-Tracker"
   },
   {
     image: ecommerce,
